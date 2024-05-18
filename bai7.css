@@ -1,0 +1,178 @@
+body {
+  width: 800px;
+  margin: auto;
+  border: 5px solid black;
+  border-bottom: none;
+}
+
+.header_top {
+  background-color: #52fd79;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 5px solid black;
+  overflow: hidden;
+}
+.top_author1,
+.top_author2,
+.top_author3,
+.top_author5 {
+  width: auto;
+  height: 100px;
+}
+
+.top_author1 img,
+.top_author2 img,
+.top_author3 img,
+.top_author5 {
+  height: 100%;
+  width: auto;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+.top_author5 img {
+  border-radius: 70% / 70%;
+  width: 70px;
+  height: 100px;
+}
+.top_author1 img {
+  border-radius: 70% / 70%;
+}
+
+.top_author2 img {
+  border-radius: 70% / 50%;
+}
+
+.top_author3 img {
+  border-radius: 50%;
+}
+
+.top_title {
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.header_bottom {
+  background-color: #b452ff;
+}
+
+.bottom_title {
+  color: #5407b5;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.bottom_author {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.author-name {
+  font-size: 14px;
+  background-color: #f99406;
+  color: red;
+  text-transform: uppercase;
+  width: 110px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid turquoise;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Đổ bóng mờ */
+}
+
+main {
+  display: flex;
+  border: 1px solid red;
+  z-index: 999;
+}
+
+.main_left {
+  flex: 3;
+}
+
+.main_right {
+  flex: 1;
+  overflow: scroll;
+  height: 600px;
+  border: 1px solid black;
+  border-top: 5px solid black;
+}
+
+.main-author {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 150px;
+}
+
+.main-author .title {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #51ff5f;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.content {
+  display: flex;
+  padding: 10px;
+}
+
+.img-author img {
+  width: 70px;
+  height: 100px;
+}
+
+.introduction p {
+  margin-top: 0;
+  margin-left: 5px;
+  line-height: 25px;
+}
+
+.main-author:nth-child(2) .title {
+  background-color: rgb(223, 77, 77);
+  color: black;
+}
+
+.main-author:nth-child(3) .title {
+  background-color: 87D2CD;
+  color: 03229F;
+}
+
+.main-author:nth-child(4) .title {
+  background-color: #c30066;
+  color: #03229f;
+}
+
+.avatar-author {
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  overflow: scroll;
+  height: 150px;
+}
+
+.avatar-author .name {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.avatar-author img {
+  width: 150px;
+}
+
+footer {
+  border-top: 7px solid black;
+  background-color: #89c3cf;
+  position: relative;
+}
+.text {
+  padding: 10px 20px;
+}
+.text p:first-child {
+  margin: 0;
+}
